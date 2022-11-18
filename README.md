@@ -1,5 +1,5 @@
 ## Multimodal training on aiMotive Multimodal Dataset
-This repository implements multimodal models trained on aiMotive Multimodal Dataset. For more details, please refer to our [paper on Arxiv](https://arxiv.org/abs/XXXX).
+This repository implements multimodal models trained on aiMotive Multimodal Dataset. For more details, please refer to our [paper on Arxiv](https://arxiv.org/abs/2211.09445).
 The code is built on the top of [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth) repository.
 
 ## Quick Start
