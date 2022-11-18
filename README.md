@@ -31,7 +31,7 @@ python setup.py develop
 **Step 2.** Change data_root variable in exps/conf_aim.py to the path of downloaded dataset.
 
 ### Tutorials
-The config parameters are contained by exps/conf_aim.py. You need to override its values.
+The config parameters are contained by exps/conf_aim.py. You need to override its values. Example config files can be found under exps/configs.
 
 **Train.**
 ```
