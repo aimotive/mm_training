@@ -1,5 +1,5 @@
 ## Multimodal training on aiMotive Multimodal Dataset
-This repository implements multimodal models trained on aiMotive Multimodal Dataset. For more details, please refer to our [paper on Arxiv](https://arxiv.org/abs/XXXX).
+This repository implements multimodal models trained on aiMotive Multimodal Dataset. For more details, please refer to our [paper on Arxiv](https://arxiv.org/abs/2211.09445).
 The code is built on the top of [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth) repository.
 
 ## Quick Start
@@ -31,7 +31,7 @@ python setup.py develop
 **Step 2.** Change data_root variable in exps/conf_aim.py to the path of downloaded dataset.
 
 ### Tutorials
-The config parameters are contained by exps/conf_aim.py. You need to override its values.
+The config parameters are contained by exps/conf_aim.py. You need to override its values. Example config files can be found under exps/configs.
 
 **Train.**
 ```
@@ -47,9 +47,11 @@ If you use this code or aiMotive Multimodal Dataset in your research, please cit
 
 ```latex
  @article{matuszka2022aimotivedataset,
-  title={aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception},
-  author={Matuszka, Tamás and Németh, Gabor and Varga, Bálint and Kunsági-Máté, Sándor and Barton, Iván and Hajas, Péter and Szeghy, Dávid and Pető, Levente},
-  journal={arXiv preprint arXiv:XXXXXXXX},
-  year={2022}
+  title = {aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception},
+  author = {Matuszka, Tamás and Barton, Iván and Butykai, Ádám and Hajas, Péter and Kiss, Dávid and Kovács, Domonkos and Kunsági-Máté, Sándor and Lengyel, Péter and Németh, Gábor and Pető, Levente and Ribli, Dezső and Szeghy, Dávid and Vajna, Szabolcs and Varga, Bálint},
+  doi = {10.48550/ARXIV.2211.09445},
+  url = {https://arxiv.org/abs/2211.09445},
+  publisher = {arXiv},
+  year = {2022},
 }
 ```
