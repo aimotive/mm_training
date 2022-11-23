@@ -79,6 +79,8 @@ class BEVDepthLightningModel(LightningModule):
         self.look_forward = look_forward
         self.map_calculator = MAPCalculator()
 
+        self.eval_split = 'all' if eval_split is None else eval_split
+
     def forward(self, sweep_imgs, mats):
         return self.model(sweep_imgs, mats)
 
@@ -548,7 +550,7 @@ class BEVDepthLightningModel(LightningModule):
         val_dataset = AiMotiveDataset(self.data_root, point_cloud_range, split='val', bda_aug_conf=bda_aug_conf,
                                       use_cam=self.use_cam, use_lidar=self.use_lidar,
                                       use_radar=self.use_radar, look_back=self.look_back,
-                                      look_forward=self.look_forward)
+                                      look_forward=self.look_forward, eval_odd=self.eval_split)
         val_loader = tdata.DataLoader(
             val_dataset,
             batch_size=self.hparams.batch_size,

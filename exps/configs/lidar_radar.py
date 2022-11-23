@@ -4,6 +4,7 @@ final_dim = (704, 1280)
 
 
 data_root = '/h/aimotive_dataset'
+eval_split = None  # Either None (i.e. use whole dataset) or in ['highway', 'urban', 'rain', 'night']
 experiment_name = 'lidar_radar'
 precision = 32
 batch_size = 4

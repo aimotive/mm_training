@@ -39,13 +39,14 @@ class AiMotiveDataset(tdata.Dataset):
         data_loader: a DataLoader class for loading multimodal sensor data.
     """
     def __init__(self, root_dir: str, pc_range: List[float], split: str = 'train', bda_aug_conf=None, use_cam=True, use_lidar=True,
-                 use_radar=True, look_back=0, look_forward=0):
+                 use_radar=True, look_back=0, look_forward=0, eval_odd='all'):
         """
         Args:
             root_dir: path to the dataset
             split: data split, either train or val
         """
         self.split = split
+        self.eval_odd = eval_odd
         self.dataset_index = self.get_frames(root_dir, split, look_back, look_forward)
         self.data_loader = DataLoader(self.dataset_index, split, pc_range, use_cam, use_lidar, use_radar, look_back, look_forward)
         self.bda_aug_conf = bda_aug_conf
@@ -168,7 +169,9 @@ class AiMotiveDataset(tdata.Dataset):
         data_paths = []
         odd_path = os.path.join(path, split)
         for odd in os.listdir(odd_path):
-            for seq in os.listdir(os.path.join(odd_path, odd)): # [:100]:
+            if not self.eval_odd == 'all' and odd != self.eval_odd:
+                continue
+            for seq in os.listdir(os.path.join(odd_path, odd)):
                 seq_path = os.path.join(odd_path, odd, seq)
                 sequence = Sequence(seq_path, look_back, look_forward)
                 data_paths.extend(sequence.get_frames())
