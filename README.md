@@ -42,6 +42,11 @@ PYTHONPATH=$PYTHONPATH: python exps/mm_training_aim.py
 PYTHONPATH=$PYTHONPATH: python exps/eval.py
 ```
 
+**Inference.**
+```
+PYTHONPATH=$PYTHONPATH: python exps/inference.py
+```
+
 ## Model checkpoints
 
 | Model         | Checkpoint       |
