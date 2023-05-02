@@ -1,5 +1,5 @@
 numba
-numpy
+numpy==1.23.5
 nuscenes-devkit
 opencv-python-headless
 pandas
@@ -8,7 +8,7 @@ scikit-image
 scipy
 setuptools==59.5.0
 tensorboardX
-kornia
+kornia==0.6.1
 albumentations
 laspy[laszip]
 opencv-python
