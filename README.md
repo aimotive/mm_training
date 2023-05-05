@@ -1,6 +1,6 @@
 ## Multimodal training on aiMotive Multimodal Dataset
 This repository implements multimodal models trained on aiMotive Multimodal Dataset. For more details, please refer to our [paper on Arxiv](https://arxiv.org/abs/2211.09445).
-The code is built on the top of [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth) repository.
+The code is built on the top of [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth) repository. The code has been tested on python 3.8.
 
 ## Quick Start
 ### Installation
@@ -10,6 +10,14 @@ pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 -f https://download.pyt
 ```
 
 **Step 1.** Install [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/getting_started.md)(v1.0.0rc4).
+
+```shell
+pip install -U openmim
+mim install mmcv-full==1.7.0
+mim install mmsegmentation==0.28.0
+mim install mmdet==2.25.1
+pip install mmdet3d==1.0.0.rc4
+```
 
 
 **Step 2.** Install requirements.
