@@ -4,6 +4,12 @@ The code is built on the top of [BEVDepth](https://github.com/Megvii-BaseDetecti
 
 ## Quick Start
 ### Installation
+
+**Create a conda environment**
+```
+conda create --name mmtraining python=3.8
+conda activate mmtraining
+```
 **Step 0.** Install [pytorch](https://pytorch.org/)(v1.9.0).
 ```shell
 pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html
