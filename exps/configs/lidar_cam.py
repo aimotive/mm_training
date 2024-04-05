@@ -20,6 +20,7 @@ point_cloud_range = [4*-51.2, -51.2/2, -5, 4*51.2, 51.2/2, 3]
 use_cam   = True
 use_lidar = True
 use_radar = False
+use_depth_loss = True
 train_velocity = False
 look_back    = 0
 look_forward = 0
