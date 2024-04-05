@@ -48,6 +48,7 @@ class BEVDepthLightningModel(LightningModule):
                  look_back=look_back,
                  look_forward=look_forward,
                  fuse_layer_in_channels=fuse_layer_in_channels,
+                 use_depth_loss=use_depth_loss,
                  **kwargs):
         super().__init__()
         self.save_dir = Path(out_path) / 'outputs'
@@ -74,7 +75,7 @@ class BEVDepthLightningModel(LightningModule):
         self.downsample_factor = self.backbone_conf['downsample_factor']
         self.dbound = self.backbone_conf['d_bound']
         self.depth_channels = int((self.dbound[1] - self.dbound[0]) / self.dbound[2]) + 1
-        self.pass_depth_labels = False
+        self.pass_depth_labels = use_depth_loss
         self.look_back = look_back
         self.look_forward = look_forward
         self.map_calculator = MAPCalculator()
