@@ -66,10 +66,10 @@ PYTHONPATH=$PYTHONPATH: python exps/inference.py
 
 | Model         | Checkpoint       |
 | ------------- | ------------- |
-| [LiDAR](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/ERYCINdt669NmVPOjNx_BNEBfOOCHCUJqU9l7QQscN6sYw?e=GWtchi)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EfhqkK4yMMVKqmE9WRkuzUkBEPGLhQPpaPX9pt__KLfRZw?e=4euhQr)  |
-| [LiDAR+cam](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/ET-4-eKDu5FCoG92npEBVlgBbVL-ckpBfxVPUYHsJrtgGQ?e=EpDLcE)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EcU3gvbbbXVHgRvNA88D3RkB8-QegGGmzaQ03lbEVph8Bw?e=WPgd1E)  |
-| [LiDAR+radar](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EQ5KKJBu4G9Irj-ImqP7mbABYs7Rdy2JxzLXgsHN9HuzJA?e=wNFqwl)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EfYbJDNk3ddAlHfuwU6ebJEB1IM-TKCfWTYs9YEFIwTB5g?e=XyrUF8)  |
-| [LiDAR+radar+cam](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EeHGiniCC8hMuciM9msEdIkB4RL0e2vgezrxSSiRlVKjQQ?e=s7lysC)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EQlYxy4V15dAtv8bYpP7RrkBh4JXkbrtqN4egw4_RayODA?e=Fn7WfM)  |
+| [LiDAR](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/ERYCINdt669NmVPOjNx_BNEBfOOCHCUJqU9l7QQscN6sYw?e=BYb1a1)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EfhqkK4yMMVKqmE9WRkuzUkBEPGLhQPpaPX9pt__KLfRZw?e=IDmkQj)  |
+| [LiDAR+cam](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/ET-4-eKDu5FCoG92npEBVlgBbVL-ckpBfxVPUYHsJrtgGQ?e=aJmoou)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EcU3gvbbbXVHgRvNA88D3RkB8-QegGGmzaQ03lbEVph8Bw?e=Wfg5YK)  |
+| [LiDAR+radar](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EQ5KKJBu4G9Irj-ImqP7mbABYs7Rdy2JxzLXgsHN9HuzJA?e=5iGE0M)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EfYbJDNk3ddAlHfuwU6ebJEB1IM-TKCfWTYs9YEFIwTB5g?e=JL4Bfy)  |
+| [LiDAR+radar+cam](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EeHGiniCC8hMuciM9msEdIkB4RL0e2vgezrxSSiRlVKjQQ?e=wB6Uvw)  | [link](https://adasworks-my.sharepoint.com/:u:/g/personal/tamas_matuszka_aimotive_com1/EQlYxy4V15dAtv8bYpP7RrkBh4JXkbrtqN4egw4_RayODA?e=Sj1eaC)  |
 
 ## Cite our work
 If you use this code or aiMotive Multimodal Dataset in your research, please cite our work by using the following BibTeX entry:
